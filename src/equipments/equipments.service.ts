@@ -18,7 +18,7 @@ export class EquipmentsService {
     const post = await this.equipmentRepository.create({
       ...createEquipmentDto,
       image: fileName,
-    });
+    });x
 
     return post;
   }
